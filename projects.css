@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8cb9fd;
+}
+
+nav{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    background-color: #2b7efc;
+}
+nav > h1{
+    flex: 50%;
+    align-self: center;
+    margin-left: 10px;
+}
+nav > a{
+    flex: 1%;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+nav > a:hover{
+    color: white;
+}
+hr{
+    border: #2b7efc solid 1px;
+}
+div.Projects{
+    display: flex;
+}
+div.Projects.left{
+    display: block;
+    flex: 75%;
+}
+p.Projects.right{
+    align-items: flex-end;
+    text-align: end;
+    flex: 25%;
+}
