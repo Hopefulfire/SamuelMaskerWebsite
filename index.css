@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    padding: 5px;
+    background-color: #363636;
+}
+nav > h1{
+    flex: 82%;
+    color: #ffffff;
+}
+nav > a{
+    flex:6%;
+    text-align: center;
+    color: #ffffff;
+    padding: 1px;
+    text-decoration: none;
+}
+nav > a:hover{
+    color: red;
+}
+nav > h1{
+    margin: 0%;
+}
