@@ -34,12 +34,14 @@ div.Certifications{
     display: flex;
 }
 h4.Certifications{
+    padding-left: 5px;
     flex: 50%;
     align-items: flex-start;
     text-align: start;
     margin: 0%;
 }
 a.Certifications{
+    padding-right: 5px;
     flex: 50%;
     align-items: flex-end;
     text-align: end;
@@ -56,10 +58,12 @@ p.Education.left{
     margin: 0%;
 }
 div.Education.left{
+    padding-left: 5px;
     flex: 50%;
     display: block;
 }
 p.Education.right{
+    padding-right: 5px;
     flex: 50%;
     text-align: end;
     margin: 0%;
@@ -68,10 +72,12 @@ div.Experiance{
     display: flex;
 }
 div.Experiance.left{
+    padding-left: 5px;
     display: block;
     flex: 50%;
 }
 p.Experiance.right{
+    padding-right: 5px;
     text-align: end;
     align-items:flex-end;
 }
@@ -81,6 +87,12 @@ a.Experiance{
 }
 a.Experiance:hover{
     color: white;
+}
+h1{
+    padding-left: 5px;
+}
+.Intro{
+    padding-left: 5px;
 }
 
 

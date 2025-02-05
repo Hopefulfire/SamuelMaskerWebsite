@@ -27,6 +27,9 @@ nav > a{
 nav > a:hover{
     color: white;
 }
+h1{
+    padding-left: 5px;
+}
 hr{
     border: #2b7efc solid 1px;
 }
@@ -34,10 +37,12 @@ div.Projects{
     display: flex;
 }
 div.Projects.left{
+    padding-left: 5px;
     display: block;
     flex: 75%;
 }
 p.Projects.right{
+    padding-right: 5px;
     align-items: flex-end;
     text-align: end;
     flex: 25%;
