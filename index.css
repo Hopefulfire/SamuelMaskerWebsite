@@ -3,24 +3,49 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav{
-    display: flex;
+    display: none;
+    flex-direction: column;
     padding: 5px;
     background-color: #363636;
+    float: left;
+    width: 10vw;
+    height: 99vh;
 }
-nav > h1{
-    flex: 82%;
-    color: #ffffff;
+nav.nav-animation-open{
+    display: flex;
+    animation: open 2s;
+
 }
-nav > a{
-    flex:6%;
-    text-align: center;
-    color: #ffffff;
-    padding: 1px;
-    text-decoration: none;
+nav.nav-animation-close{
+    display: none;
+    animation: close 2s;
 }
-nav > a:hover{
-    color: red;
+h1.nav{
+    text-overflow: unset;
+    animation: close;
 }
-nav > h1{
-    margin: 0%;
+button.menuselect{
+    background-color: #34aaff;
+    border-radius: 20%;
+    border: solid #020427 1px;
+    float: left;
+}
+img.menuselect{
+    width: 20px;
+}
+
+@keyframes open {
+    from {width: 0px;
+        font-size: 0px;}
+
+    to {width: 10vw;
+        font-size: initial;}
+}
+@keyframes close {
+    from{display: flex; 
+        width: 10vw;}
+    to{ 
+    width: 0px;
+    display: none;
+    font-size: 0px;}
 }
