@@ -1,4 +1,5 @@
 body{
+    display: flex;
     margin: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -14,6 +15,7 @@ nav{
 nav.nav-animation-open{
     display: flex;
     animation: open 2s;
+    
 
 }
 nav.nav-animation-close{
@@ -36,10 +38,12 @@ img.menuselect{
 
 @keyframes open {
     from {width: 0px;
-        font-size: 0px;}
+        font-size: 0px;
+        }
 
     to {width: 10vw;
-        font-size: initial;}
+        font-size: initial;
+        }
 }
 @keyframes close {
     from{display: flex; 
