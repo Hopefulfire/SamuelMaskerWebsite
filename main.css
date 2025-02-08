@@ -10,7 +10,6 @@ nav{
     background-color: #010111;
     float: left;
     width: 10vw;
-    height: 99vh;
     position: sticky;
 }
 nav.nav-animation-open{
@@ -48,10 +47,18 @@ button.menuselect{
     width: 33px;
     height: 30px;
     position: absolute;
+    padding: 0px;
     
 }
+button.menuselect:hover{
+    background-color: #020427;
+    border: solid #34aaff 1px;
+}
 img.menuselect{
-    width: 20px;
+    width: 30px;
+}
+img.menuselect:hover{
+    filter: invert(100%);
 }
 #content{
     display: flex;
