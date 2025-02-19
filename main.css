@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #020427;
+    color: #34aaff;
+}
+nav{
+    display: none;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #010111;
+    float: left;
+    width: 10vw;
+    position: sticky;
+}
+nav.nav-animation-open{
+    display: flex;
+    animation: open 2s;
+    
+
+}
+nav.nav-animation-close{
+    display: none;
+    animation: close 2s;
+}
+h1.nav{
+    text-align: center;
+    color: #34aaff;
+}
+img.nav{
+    border: #34aaff 2px solid;
+    border-radius: 50%;
+}
+a.nav{
+    color: #34aaff;
+    text-align: center;
+    text-decoration: none;
+}
+a.nav:hover{
+    animation: over 0.75s;
+    color: #020427;
+    background-color: #34aaff;
+}
+button.menuselect{
+    background-color: #34aaff;
+    border-radius: 20%;
+    border: solid #020427 1px;
+    width: 33px;
+    height: 30px;
+    position: absolute;
+    padding: 0px;
+    
+}
+button.menuselect:hover{
+    background-color: #020427;
+    border: solid #34aaff 1px;
+}
+img.menuselect{
+    width: 30px;
+}
+img.menuselect:hover{
+    filter: invert(100%);
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    height: fit-content;
+}
+div.hero{
+    height: 50vh;
+    width: 100%;
+    background-image: url(GlobalImages/background.png);
+    background-size: cover;
+    display: flex;
+
+}
+h1.hero{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    color: #34aaff;
+    text-shadow: #020427 2px 2px 8px;
+}
+hr{
+    width: 99%;
+    border: #34aaff 1px solid;
+}
+
+@keyframes open {
+    from {width: 0px;
+        font-size: 0px;
+        }
+
+    to {width: 10vw;
+        font-size: initial;
+        }
+}
+@keyframes close {
+    from{display: flex; 
+        width: 10vw;}
+    to{ 
+    width: 0px;
+    display: none;
+    font-size: 0px;}
+}
+@keyframes over {
+    from{
+        color: #34aaff;
+        background-color: #020427;
+    }
+    to{
+        color: #020427;
+        background-color: #34aaff;
+    }
+    
+}

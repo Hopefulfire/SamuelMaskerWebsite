@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8cb9fd;
+}
+
+nav{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    background-color: #2b7efc;
+}
+nav > h1{
+    flex: 50%;
+    align-self: center;
+    margin-left: 10px;
+}
+nav > a{
+    flex: 1%;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+nav > a:hover{
+    color: white;
+}
+hr{
+    border: #2b7efc solid 1px;
+}
+div.Contact{
+    display: flex;
+}
+div.side{
+    flex: 25%;
+}
+div.form{
+    flex: 50%;
+}
+div.form{
+    display: flex;
+}
+input{
+    display: box;
+    background-color: #8cb9fd;
+    border: #2b7efc 1px solid;
+}
+label{
+    text-align: center;
+}
+textarea{
+    width: 15vw;
+    height: 20vh;
+}
+#enter:hover{
+    color: black;
+    background-color: #2b7efc;
+}
