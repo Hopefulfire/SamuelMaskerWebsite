@@ -59,9 +59,6 @@ button.menuselect:hover{
 img.menuselect{
     width: 30px;
 }
-img.menuselect:hover{
-    filter: invert(100%);
-}
 #content{
     display: flex;
     flex-direction: column;
