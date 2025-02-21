@@ -35,16 +35,14 @@ h1.title.info{
     margin: 0%;
 }
 div.Certs.left{
-    flex: 50%;
-}
-div.Certs.right{
-    color: #34aaff;
-    flex: 50%;
+    flex: 80%;
 }
 a.Certs.right{
     text-decoration: none;
     color: #34aaff;
     font-weight: bolder;
+    flex: 20%;
+    text-align: end;
 }
 a.Certs.right:hover{
     color: white;
