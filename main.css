@@ -1,0 +1,28 @@
+body{
+    background-color: #313131;
+    color: #d4d4d4;
+    display: flex;
+    margin: 0%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+}
+button.menu{
+    position: relative;
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+div.hero{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHMzZzdmMHExeXVnN3A2bGRrY3luZ3cwYzQwenk4MzdwOTNzdWRtNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/V4NSR1NG2p0KeJJyr5/giphy.gif);
+}
+h1.hero{
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
