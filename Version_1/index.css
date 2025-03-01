@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8cb9fd;
+}
+
+nav{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    background-color: #2b7efc;
+}
+nav > h1{
+    flex: 50%;
+    align-self: center;
+    margin-left: 10px;
+}
+nav > a{
+    flex: 1%;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+nav > a:hover{
+    color: white;
+}
+hr{
+    border: #2b7efc solid 1px;
+}
+div.Certifications{
+    display: flex;
+}
+h4.Certifications{
+    padding-left: 5px;
+    flex: 50%;
+    align-items: flex-start;
+    text-align: start;
+    margin: 0%;
+}
+a.Certifications{
+    padding-right: 5px;
+    flex: 50%;
+    align-items: flex-end;
+    text-align: end;
+    text-decoration: none;
+    color: black;
+}
+a.Certifications:hover{
+    color: white;
+}
+div.Education{
+    display: flex;
+}
+p.Education.left{
+    margin: 0%;
+}
+div.Education.left{
+    padding-left: 5px;
+    flex: 50%;
+    display: block;
+}
+p.Education.right{
+    padding-right: 5px;
+    flex: 50%;
+    text-align: end;
+    margin: 0%;
+}
+div.Experiance{
+    display: flex;
+}
+div.Experiance.left{
+    padding-left: 5px;
+    display: block;
+    flex: 50%;
+}
+p.Experiance.right{
+    padding-right: 5px;
+    text-align: end;
+    align-items:flex-end;
+}
+a.Experiance{
+    text-decoration: none;
+    color: black;
+}
+a.Experiance:hover{
+    color: white;
+}
+h1{
+    padding-left: 5px;
+}
+.Intro{
+    padding-left: 5px;
+}
+
+
