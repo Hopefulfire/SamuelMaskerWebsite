@@ -3,6 +3,7 @@ body{
     color: #d4d4d4;
     display: flex;
     margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main{
     display: flex;
@@ -25,4 +26,33 @@ h1.hero{
     width: 100%;
     text-align: center;
     align-self: center;
+}
+h3{
+    margin: 0px;
+}
+div.HeadingSec{
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
+    align-items: baseline;
+}
+h2.HeadingSec{
+    margin: 0px;
+}
+h4.HeadingSec{
+    margin: 0px;
+    font-weight: 200;
+}
+p{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+a{
+    color: #d4d4d4;
+    text-decoration: none;
+    font-weight: 900;
+}
+a:hover{
+    color: #d4d4d4;
+    text-decoration: underline;
 }
